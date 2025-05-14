@@ -1,5 +1,4 @@
-﻿
-namespace SigesaEntidades
+﻿namespace SigesaEntidades
 {
     public class Usuario
     {

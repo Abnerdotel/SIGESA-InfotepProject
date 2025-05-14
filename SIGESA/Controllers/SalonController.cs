@@ -2,7 +2,7 @@
 
 namespace SigesaWeb.Controllers
 {
-    public class SalonesController : Controller
+    public class SalonController : Controller
     {
         public IActionResult Index()
         {

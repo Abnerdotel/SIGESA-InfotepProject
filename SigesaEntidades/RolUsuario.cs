@@ -1,6 +1,4 @@
-﻿
-
-namespace SigesaEntidades
+﻿namespace SigesaEntidades
 {
     public class RolUsuario
     {

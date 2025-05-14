@@ -2,7 +2,7 @@
 
 namespace SigesaWeb.Controllers
 {
-    public class ReservasController : Controller
+    public class ReservaController : Controller
     {
         public IActionResult Index()
         {

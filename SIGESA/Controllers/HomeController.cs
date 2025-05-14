@@ -1,3 +1,6 @@
+using Microsoft.AspNetCore.Authentication.Cookies;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SIGESA.Models;
 using System.Diagnostics;
@@ -13,11 +16,15 @@ namespace SIGESA.Controllers
             _logger = logger;
         }
 
+
+        [Authorize(Roles = "Administrador")]
+
         public IActionResult Index()
         {
             return View();
         }
 
+        [Authorize(Roles = "Administrador")]
         public IActionResult Privacy()
         {
             return View();
@@ -27,6 +34,11 @@ namespace SIGESA.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+        public async Task<IActionResult> Salir()
+        {
+            await HttpContext.SignOutAsync(CookieAuthenticationDefaults.AuthenticationScheme);
+            return RedirectToAction("Login", "Acceso");
         }
     }
 }
