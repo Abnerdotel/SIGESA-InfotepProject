@@ -13,15 +13,13 @@ namespace SigesaData.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-
-
-                optionsBuilder.UseInMemoryDatabase("");
+                optionsBuilder.UseInMemoryDatabase("DBSIGESA");
                 
             }
             base.OnConfiguring(optionsBuilder);
         }
 
-        public DbSet<RolUsuario> Categories { get; set; }
-        public DbSet<Usuario> Products { get; set; }
+        public DbSet<RolUsuario> RolUsuario { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
     }
 }

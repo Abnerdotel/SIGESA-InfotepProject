@@ -40,8 +40,11 @@ namespace SigesaWeb.Controllers
             return StatusCode(StatusCodes.Status200OK, new { data = respuesta });
         }
 
+
+
         [HttpDelete]
-        public async Task<IActionResult> Eliminar(int Id)
+
+        public async Task<ActionResult> Eliminar(int Id)
         {
             int respuesta = await _repositorio.Eliminar(Id);
             return StatusCode(StatusCodes.Status200OK, new { data = respuesta });

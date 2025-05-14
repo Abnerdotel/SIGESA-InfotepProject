@@ -2,7 +2,7 @@
 
 namespace SigesaEntidades
 {
-    public class Salones
+    public class Salon
     {
     }
 }
