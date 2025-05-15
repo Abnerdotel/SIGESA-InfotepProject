@@ -4,6 +4,6 @@ namespace SigesaData.Configuracion
 {
     public class ConnectionStrings
     {
-        public string CadenaAQL { get; set; } = null!;
+        public string CadenaSQL { get; set; } = null!;
     }
 }

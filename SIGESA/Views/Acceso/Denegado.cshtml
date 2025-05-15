@@ -39,7 +39,7 @@
                                     </a>
                                 }
 
-                                else if (User.IsInRole("Paciente"))
+                                else if (User.IsInRole("Estudiante"))
 
                                 {
                                     <a asp-controller="Citas" asp-action="Index" class="btn btn-primary mt-3">
@@ -48,7 +48,7 @@
                                     </a>
                                 }
 
-                                else if (User.IsInRole("Doctor"))
+                                else if (User.IsInRole("Administrador 2"))
 
                                 {
                                     <a asp-controller="Citas" asp-action="CitasAsignadas" class="btn btn-primary mt-3">
@@ -66,7 +66,7 @@
             <footer class="py-4 bg-light mt-auto">
                 <div class="container-fluid px-4">
                     <div class="d-flex align-items-center justify-content-between small">
-                        <div class="text-muted">Copyright &copy; Tu Clínica 2023</div>
+                        <div class="text-muted">Abner Dotel - Proyecto SIGESA; </div>
                         <div>
                             <a href="#">Política de Privacidad</a>
                             &middot;
