@@ -15,7 +15,7 @@ namespace SigesaData.Context
             {
 
 
-                optionsBuilder.UseInMemoryDatabase("");
+                optionsBuilder.UseInMemoryDatabase("SigedaDb");
                 
             }
             base.OnConfiguring(optionsBuilder);
