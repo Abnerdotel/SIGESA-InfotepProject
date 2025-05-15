@@ -1,7 +1,8 @@
 ﻿
+
 namespace SigesaData.Context
 {
-    public class SalonContext
+    public class EquipamientoContext
     {
     }
 }
