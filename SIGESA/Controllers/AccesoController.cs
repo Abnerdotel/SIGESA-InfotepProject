@@ -3,7 +3,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using SigesaData.Contrato;
 using SigesaEntidades;
-using SigesaWeb.Models.DTOS;
+using SigesaWeb.Models.DTOs;
 using System.Security.Claims;
 
 namespace SigesaWeb.Controllers

@@ -7,12 +7,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\SigesaData.csproj" />
-    <ProjectReference Include="..\SigesaEntidades\SigesaEntidades.csproj" />
+    <Compile Remove="Helpers\**" />
+    <Content Remove="Helpers\**" />
+    <EmbeddedResource Remove="Helpers\**" />
+    <None Remove="Helpers\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Helpers\" />
+    <ProjectReference Include="..\ClassLibrary1\SigesaData.csproj" />
+    <ProjectReference Include="..\SigesaEntidades\SigesaEntidades.csproj" />
   </ItemGroup>
 
 </Project>
