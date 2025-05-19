@@ -13,7 +13,6 @@ namespace SigesaData.Context
         {
             if (!optionsBuilder.IsConfigured)
             {
-
                 optionsBuilder.UseInMemoryDatabase("DBSIGESA");
                 
             }

@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
 
-namespace ClinicaWeb.ViewComponents
+namespace SigesaWeb.ViwComponents
 {
     public class MenuUsuarioViewComponent : ViewComponent
     {
