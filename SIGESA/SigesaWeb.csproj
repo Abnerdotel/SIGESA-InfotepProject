@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ClassLibrary1\SigesaData.csproj" />
+    <ProjectReference Include="..\ClassLibrary1\SigesaDatos.csproj" />
     <ProjectReference Include="..\SigesaEntidades\SigesaEntidades.csproj" />
   </ItemGroup>
 
