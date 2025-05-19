@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35303.130
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigesaWeb", "SIGESA\SigesaWeb.csproj", "{23D27E33-FFB4-44A9-8F9F-97A11F229996}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SigesaWeb", "SIGESA\SigesaWeb.csproj", "{23D27E33-FFB4-44A9-8F9F-97A11F229996}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigesaData", "ClassLibrary1\SigesaData.csproj", "{4C07BF85-485D-4012-9004-0D0F286C7665}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SigesaDatos", "ClassLibrary1\SigesaDatos.csproj", "{4C07BF85-485D-4012-9004-0D0F286C7665}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigesaEntidades", "SigesaEntidades\SigesaEntidades.csproj", "{A699897E-6F05-4B5C-A405-9DFBA52A7B5B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SigesaEntidades", "SigesaEntidades\SigesaEntidades.csproj", "{A699897E-6F05-4B5C-A405-9DFBA52A7B5B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
